@@ -754,7 +754,7 @@ user.afkReason = ''
 
 if (m.mtype === 'groupInviteMessage') {
 teks = `I can't join the group untill my *Owner* ask me to join. Type *-owner* to get owner number and ask him.`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "916909137213@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "265889976968@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 
@@ -1373,7 +1373,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: ᥴꫝꫀꪗ-𝙎𝙖𝙣 to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kíñgsléy-𝙎𝙖𝙣 to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1403,7 +1403,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
+    ©️ *${global.BotName}* All Rights Reserved by: *kingsley*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1432,7 +1432,7 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by ᥴꫝꫀꪗ-𝙎𝙖𝙣",
+    title:"Powered by Kíñgsléy-𝙎𝙖𝙣",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
@@ -1553,7 +1553,7 @@ case 'support': case 'supportgc':
 
 case 'repo': case 'botrepo':
     
-    reply(`*Here  is My Source Code Darling❤️:* https://github.com/Chey-san/Marin-Kitagawa-MD-Bot`)
+    reply(`*Here  is My Source Code Darling❤️:* https://github.com/ife250/Marin-Kitagawa-MD-Bot`)
     break
 
 case 'nsfwmenu':
@@ -4740,7 +4740,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `💫Konichiwa *${pushname}* Senpai❣️,
 
-I am *𝑀𝒶𝓇𝒾𝓃 ⋊ ᴋɪᴛᴀɢᴀᴡᴀ*, a bot developed by *ᥴꫝꫀꪗ-𝙎𝙖𝙣*.
+I am *𝑀𝒶𝓇𝒾𝓃 ⋊ ᴋɪᴛᴀɢᴀᴡᴀ*, a bot developed by *kingsley-𝙎𝙖𝙣*.
 
 🎲 My prefix is:  ${prefix}
 
@@ -4815,8 +4815,8 @@ Here's the list of my Commands.
 
 
  『  *${global.BotName}*  』
- Powered by: *FanTox*
- Designed by: *ᥴꫝꫀꪗ*
+ Powered by: *kingsley*
+ Designed by: *Kíñgsléy*
  ⭕ To use any of these commands type 
  " *${prefix}<Command name>* ".
  
